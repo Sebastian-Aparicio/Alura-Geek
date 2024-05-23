@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "name": "M1000RR",
+      "price": "75",
+      "image": "M100rr.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Duke 1390R",
+      "price": "50",
+      "image": "Duke1390R.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Panigale V4",
+      "price": "48",
+      "image": "PanigaleV4.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Ninja zx-10R",
+      "price": "45",
+      "image": "Ninjazx-10R.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Hypermotard",
+      "price": "20",
+      "image": "Hypermotard.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Yzf R1",
+      "price": "46",
+      "image": "YzfR1.jpg",
+      "id": "6"
+    },
+    {
+      "name": "M100R",
+      "price": "50",
+      "image": "M100R.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Cbr 1000RR",
+      "price": "50",
+      "image": "Cbr1000RR.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Adventure 1290",
+      "price": "48",
+      "image": "Adventure1290.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Z1000",
+      "price": "20",
+      "image": "Z1000.jpg",
+      "id": "10"
+    },
+    {
+      "name": "Husvarna 701",
+      "price": "15",
+      "image": "Husvarna701.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Gs 1250",
+      "price": "45",
+      "image": "Gs1250.jpg",
+      "id": "12"
+    },
+    {
+      "name": "Africa Twin",
+      "price": "40",
+      "image": "AfricaTwin.jpg",
+      "id": "13"
+    }
+  ]
+}

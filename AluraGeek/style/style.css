@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #e8e8e8;
+    color: #7a7ab3;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background:#F4F6FB;
+    
+    
+}
+
+.content__phater {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 100%;
+
+
+}
+
+.content__phater h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+
+}
+
+.content__products {
+    width: 60%;
+    height: 100%;
+    background: #F4F6FB;
+    border: 1px solid white;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    padding-top: 1rem;
+    border-radius: 2%;
+
+}
+
+
+.content__products:hover {
+    border: 1px solid #7a7ab3;
+    cursor: pointer;
+}
+
+.products {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 36rem;
+    overflow: auto;
+    margin-bottom: 0.5rem;
+  
+
+
+}
+
+.product__card {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 15rem;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    transition: 100ms;
+
+}
+
+.product__card:hover{
+    border:  5px solid #6e6eff;
+
+
+
+}
+.product__card img {
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    height: 50%;
+    width: 50%;
+
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.cash {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-around;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 15%;
+    transition: 0.5s;
+}
+
+
+button:hover{
+    background-color: #ee0d0d;
+    color: #fff;
+    cursor: pointer;
+    width: 20%;
+
+}
+
+.form {
+    width: 20%;
+    height: 39.5rem;
+    background: #F4F6FB;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    min-width: 200px
+}
+
+.form h3 {
+
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.form:hover{
+    border: 1px solid #7a7ab3;
+}
+
+
+.container__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.input {
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #dadaf7;
+    padding: 5px;
+    width: 80%;
+    height: 3rem;
+    color: #000;
+    border: 1px solid #7a7ab3;
+}
+
+.input::placeholder {
+    color: #000;
+}
+
+.buttones {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.button {
+    background-color: #7878bd;
+    margin-top: 50px;
+    font-size: 1rem;
+    padding: 7px 12px;
+    width: 35%;
+    height: auto;
+    font-weight: 500;
+    color: white;
+    border: none;
+
+}
+
+.limpiar {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #7878bd;
+    color: #7878bd;
+}
+
+
+.button:hover {
+    background-color: #5f5f9c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background:#F4F6FB;
+   
+    
+}
+
+
+
+
+
+
+
